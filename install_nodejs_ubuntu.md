@@ -52,4 +52,4 @@ And voilà. `NodeJS` and `NPM` were successfully installed with this simple comm
 
 ![](./img/node_and_npm_version.png)
 
-<br>
+-----
