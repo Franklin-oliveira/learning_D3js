@@ -1,5 +1,3 @@
-# testing svg rendering in github
+# SVG Basics
 
-<svg width="400px" height="60px">
-<rect x='0' y='0' height='50' fill='green'></rect>
-</svg>
+Here you are going to find some notes in `HTML` about the `svg` object. 
