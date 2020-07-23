@@ -11,7 +11,7 @@ In this repository I'll store some personal study notes about D3.js and some exa
 
 To visualize all `D3` files appropriately, you need to set up a basic `HTTP server` in your local machine. Next, I present two easy ways to do this: one using `Python 3` and a slightly more advanced one using `Node JS` and `NPM` (Node Package Manager). 
 
-**p.s.:** for the sole purpose of seeing the content in this folder, I personally recommend the Python alternative as it is easier to install implement in any operating system. But if you already use Node JS or simply don't want to install Python for any reason, I also present a way to do this using Node JS.
+**p.s.:** for the sole purpose of seeing the content in this folder, I personally recommend the Python alternative as it is easier to install and implement in any operating system. But if you already use Node JS or simply don't want to install Python for any reason, I also present a way to do this using Node JS.
 
 <br>
 
@@ -58,12 +58,14 @@ You'll see something like this in your terminal (or Windows cmd):
 
 ![](./img/python-http.png)
 
+<br>
+
 This means that the server is up and running at `http://localhost:8000/`. If you go to your favourite browser and navigate to this address, you should see this repo's structure like this:
 
 ![](./img/python-server-browser.png)
 
 
-To change the port, execute
+To change the port, just execute
 
 ```
 python3 -m http.server *port_number*  # you can add any port number you like
@@ -73,6 +75,32 @@ python3 -m http.server *port_number*  # you can add any port number you like
 
 ## Setting up HTTP Server with Node JS and NPM
 
-(Soon)
+Assuming you already have NodeJS and NPM installed (if you don't, see the following section for useful references), all you need to do is install the `http-server` package from NPM:
 
-### Installing Node JS
+```shell
+npm install -g http-server  # this install it globally. To install locally, remove -g  
+```
+
+Finally, to start the server, just navigate to this directory in terminal and execute:
+
+```shell
+http-server -p 8000
+```
+
+This will start the server at port 8000 and the result is similar to
+
+![](./img/node-server-browser.png)
+
+Further options for the `http-server` library can be found [here](https://www.npmjs.com/package/http-server).
+
+<br>
+
+### Installing Node JS and NPM
+
+If you need instructions to install `NodeJS` and `NPM`, here are some references you can look up for: 
+
+> [Windows](https://phoenixnap.com/kb/install-node-js-npm-on-windows) - [Mac OS](https://treehouse.github.io/installation-guides/mac/node-mac.html)
+
+Additionally, I added the steps I followed to install if on linux Ubuntu 20.04 on file [install_nodejs_ubuntu](./install_nodejs_ubuntu.md). If you are using another linux distribution, you may want to try the same steps replacing `apt` for your distro's package manager (like `dnf` for Fedora and `pacman` for Manjaro).
+
+----
