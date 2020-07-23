@@ -102,6 +102,63 @@
         <ellipse cx='145' cy='25' rx='15' ry='25' fill='grey'></ellipse>
     </svg>
 
+
+    <h2>Lines</h2>
+
+    <p>
+        To draw a line, just use the &lt;line&gt; method with arguments:
+        
+        <ul>
+            <li><b>x1</b> and <b>y1</b>, which are (x, y) coordinates to the start of the line.</li>
+            <li><b>x2</b> and <b>y2</b>, which are the coordinates of the end of the line.</li>
+        </ul>
+
+        <br>
+        Ex:
+        <br>
+    </p>
+
+    <svg width='400px' height='60px'>
+        <line x1='185' y1='5' x2='230' y2='40' stroke='blue' stroke-width='5px'></line>
+    </svg>
+
+    <h2>Text</h2>
+
+    <p>
+        We can also draw text on svg with &lt;text&gt; tag. Some of its arguments are:
+        
+        <ul>
+            <li><b>x</b> and <b>y</b> coordinates.</li>
+            <li><b>font-size</b>.</li>
+            <li><b>text-anchor:</b> controls how the text will match the (x,y) coordinate. By default, the text is 
+            drawn at the 'right' position (the point is located at the top left position of the text). Some other options are 'middle', 'end', etc.   
+            </li>
+        </ul>
+
+        <br>
+        Ex:
+        <br>
+    </p>
+
+    <svg width='400px' height='60px'>
+        <text x='260' y='25' font-size='20px' fill='green'>Hello World!</line>
+    </svg>
+
+
+    <h2>Path</h2>
+
+    <p>
+        To draw a path on svg, just use the tag &lt;path&gt;. Its main argument is <b>d</b>, which sets a shape to the path. 
+        For a full explanation on how to construct svg paths, just visit this <a href="https://www.w3schools.com/graphics/svg_path.asp" target="_blank">link</a>
+
+        <br>
+        Ex:
+        <br>
+    </p>
+
+    <svg width='400px' height='60px'>
+        <path d='M10 80 C 40 10, 65 10, 95 80 S 150 150, 180 80' stroke='blue' fill='transparent'>Hello World!</line>
+    </svg>
 </body>
 
 </html>
