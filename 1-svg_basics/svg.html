@@ -3,6 +3,8 @@
 
 <head>
     <meta charset='utf-8'>
+    <meta name='description' content=''>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>svg basics</title>
 </head>
 
@@ -31,7 +33,8 @@
 
     <h2>Drawing Rectangles</h2>
 
-    <p>To draw a rectangle, you can use the &lt;rect &gt; tag. It takes as arguments:
+    <p>
+        To draw a rectangle, you can use the &lt;rect &gt; tag. It takes as arguments:
     <ul>
         <li><b>x</b> and <b>y</b> coordinates. </li>
         <li><b>height</b> and <b>width</b>. </li>
@@ -39,8 +42,7 @@
         <li><b>stroke:</b> color of the contour.</li>
         <li><b>stroke-width:</b> width of the contour.</li>
     </ul>
-
-    <br>
+    
     <b>p.s.:</b> the (x,y) coordinates start at (0,0) on the top left corner of the <b>shape object</b>.
 
     <br>
@@ -70,7 +72,7 @@
         <li><b>r:</b> radius.</li>
         <li><b>fill:</b> color to fill the circle.</li>
     </ul>
-    
+
     <br>
 
     Ex:
@@ -86,16 +88,17 @@
     <h2>Ellipses</h2>
 
     <p>
-        To draw an elipse, just go for the &lt;ellipse&gt; method. Similar to the circle, you need to pass the <b>x</b> and <b>y</b> coordinates 
+        To draw an elipse, just go for the &lt;ellipse&gt; method. Similar to the circle, you need to pass the <b>x</b>
+        and <b>y</b> coordinates
         and, maybe, a <b>fill</b> color. Although, there are two more necessary arguments:
-        <ul>
-            <li><b>rx:</b> radius parallel to the x axis.</li>
-            <li><b>ry:</b> radius parallel to the y axis.</li>
-        </ul>
+    <ul>
+        <li><b>rx:</b> radius parallel to the x axis.</li>
+        <li><b>ry:</b> radius parallel to the y axis.</li>
+    </ul>
 
-        <br>
-        Ex:
-        <br>
+    <br>
+    Ex:
+    <br>
     </p>
     <svg width='400px' height='60px'>
         <!-- give (x,y) coord. of the center and 2 radius with respect to the x and y axis (rx, ry) -->
@@ -107,15 +110,15 @@
 
     <p>
         To draw a line, just use the &lt;line&gt; method with arguments:
-        
-        <ul>
-            <li><b>x1</b> and <b>y1</b>, which are (x, y) coordinates to the start of the line.</li>
-            <li><b>x2</b> and <b>y2</b>, which are the coordinates of the end of the line.</li>
-        </ul>
 
-        <br>
-        Ex:
-        <br>
+    <ul>
+        <li><b>x1</b> and <b>y1</b>, which are (x, y) coordinates to the start of the line.</li>
+        <li><b>x2</b> and <b>y2</b>, which are the coordinates of the end of the line.</li>
+    </ul>
+
+    <br>
+    Ex:
+    <br>
     </p>
 
     <svg width='400px' height='60px'>
@@ -126,18 +129,19 @@
 
     <p>
         We can also draw text on svg with &lt;text&gt; tag. Some of its arguments are:
-        
-        <ul>
-            <li><b>x</b> and <b>y</b> coordinates.</li>
-            <li><b>font-size</b>.</li>
-            <li><b>text-anchor:</b> controls how the text will match the (x,y) coordinate. By default, the text is 
-            drawn at the 'right' position (the point is located at the top left position of the text). Some other options are 'middle', 'end', etc.   
-            </li>
-        </ul>
 
-        <br>
-        Ex:
-        <br>
+    <ul>
+        <li><b>x</b> and <b>y</b> coordinates.</li>
+        <li><b>font-size</b>.</li>
+        <li><b>text-anchor:</b> controls how the text will match the (x,y) coordinate. By default, the text is
+            drawn at the 'right' position (the point is located at the top left position of the text). Some other
+            options are 'middle', 'end', etc.
+        </li>
+    </ul>
+
+    <br>
+    Ex:
+    <br>
     </p>
 
     <svg width='400px' height='60px'>
@@ -148,15 +152,17 @@
     <h2>Path</h2>
 
     <p>
-        To draw a path on svg, just use the tag &lt;path&gt;. Its main argument is <b>d</b>, which sets a shape to the path. 
-        For a full explanation on how to construct svg paths, just visit this <a href="https://www.w3schools.com/graphics/svg_path.asp" target="_blank">link</a>
+        To draw a path on svg, just use the tag &lt;path&gt;. Its main argument is <b>d</b>, which sets a shape to the
+        path.
+        For a full explanation on how to construct svg paths, just visit this <a
+            href="https://www.w3schools.com/graphics/svg_path.asp" target="_blank">link</a>
 
         <br>
         Ex:
         <br>
     </p>
 
-    <svg width='400px' height='60px'>
+    <svg width='400px' height='200px'>
         <path d='M10 80 C 40 10, 65 10, 95 80 S 150 150, 180 80' stroke='blue' fill='transparent'>Hello World!</line>
     </svg>
 </body>
