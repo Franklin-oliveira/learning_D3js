@@ -5,7 +5,7 @@ In this repository I'll store some personal study notes about D3.js and some exa
 
 ## Contents
 
-- **1-svg_basics:** in this folder you are going to find some basic review notes about the `svg` element. 
+- **1-svg_basics:** in this folder you are going to find some basic review notes about the `svg` element and how to use D3 to create and modify it on an HTML page.
 
 <br>
 
