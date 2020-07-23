@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <title>svg basics</title>
+</head>
+
+<body>
+
+    <h1>SVG object</h1>
+    <p>To create a new svg object, you need to use the &lt;svg&gt; tag and set window dimmensions (width and height) to
+        it, like:
+
+        <br>
+        <br>
+
+        &lt;svg width="400px" height="60px"&gt;&lt;/svg&gt;
+
+        <br>
+        <br>
+
+        <b>p.s.:</b> the (x,y) coordinates start at (0,0) on the top left corner of the <b>screen</b>.
+
+        <br>
+        <br>
+
+        Next, there are some examples of what you can draw in it.
+    </p>
+
+
+    <h2>Drawing Rectangles</h2>
+
+    <p>To draw a rectangle, you can use the &lt;rect &gt; tag. It takes as arguments:
+    <ul>
+        <li><b>x</b> and <b>y</b> coordinates. </li>
+        <li><b>height</b> and <b>width</b>. </li>
+        <li><b>fill:</b> color to fill the shape.</li>
+        <li><b>stroke:</b> color of the contour.</li>
+        <li><b>stroke-width:</b> width of the contour.</li>
+    </ul>
+
+    <br>
+    <b>p.s.:</b> the (x,y) coordinates start at (0,0) on the top left corner of the <b>shape object</b>.
+
+    <br>
+    <br>
+
+    Ex:
+    <br>
+    </p>
+
+    <!-- creating a SVG window (x,y coordinates starts at 0,0 on the top left corner of the SCREEN) -->
+    <svg width="400px" height="60px">
+        <!-- drawing a rectangle (x,y coordinates starts at 0,0 at the top left corner of the SHAPE) -->
+        <!-- <rect x='0' y='0' width='50' height='50' fill='green'></rect> -->
+        <rect x='0' y='0' width='50' height='50' fill='green' stroke='gray' stroke-width='5px'></rect>
+
+        <!-- part of the drawing exceeds SHAPE dimmensions (its clipped) -->
+        <rect x='375' y='0' width='50' height='50' fill='blue'></rect>
+    </svg>
+
+
+    <h2>Circles</h2>
+    To draw a circle, there is the &lt;circle&gt; method. You need to pass
+
+    <p>
+    <ul>
+        <li><b>cx</b> and <b>cy</b>, which stands for x and y coordinates of the center.</li>
+        <li><b>r:</b> radius.</li>
+        <li><b>fill:</b> color to fill the circle.</li>
+    </ul>
+    
+    <br>
+
+    Ex:
+
+    <br>
+    </p>
+
+    <svg width='400px' height='60px'>
+        <!-- give x and y positions of the center and the radius -->
+        <circle cx='90' cy='25' r='25' fill='red'></circle>
+    </svg>
+
+    <h2>Ellipses</h2>
+
+    <p>
+        To draw an elipse, just go for the &lt;ellipse&gt; method. Similar to the circle, you need to pass the <b>x</b> and <b>y</b> coordinates 
+        and, maybe, a <b>fill</b> color. Although, there are two more necessary arguments:
+        <ul>
+            <li><b>rx:</b> radius parallel to the x axis.</li>
+            <li><b>ry:</b> radius parallel to the y axis.</li>
+        </ul>
+
+        <br>
+        Ex:
+        <br>
+    </p>
+    <svg width='400px' height='60px'>
+        <!-- give (x,y) coord. of the center and 2 radius with respect to the x and y axis (rx, ry) -->
+        <ellipse cx='145' cy='25' rx='15' ry='25' fill='grey'></ellipse>
+    </svg>
+
+</body>
+
+</html>
