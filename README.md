@@ -1,6 +1,8 @@
 # learning_D3js
 In this repository I'll store some personal study notes about D3.js and some example charts and projects I'm going to make in order to apply the new concepts and techniques about this JavaScript library.
 
+<br>
+
 ## Contents
 
 - **1-svg_basics:** in this folder you are going to find some basic review notes about the `svg` element. 
@@ -58,7 +60,6 @@ You'll see something like this in your terminal (or Windows cmd):
 
 ![](./img/python-http.png)
 
-<br>
 
 This means that the server is up and running at `http://localhost:8000/`. If you go to your favourite browser and navigate to this address, you should see this repo's structure like this:
 
@@ -102,5 +103,7 @@ If you need instructions to install `NodeJS` and `NPM`, here are some references
 > [Windows](https://phoenixnap.com/kb/install-node-js-npm-on-windows) - [Mac OS](https://treehouse.github.io/installation-guides/mac/node-mac.html)
 
 Additionally, I added the steps I followed to install if on linux Ubuntu 20.04 on file [install_nodejs_ubuntu](./install_nodejs_ubuntu.md). If you are using another linux distribution, you may want to try the same steps replacing `apt` for your distro's package manager (like `dnf` for Fedora and `pacman` for Manjaro).
+
+<br>
 
 ----
