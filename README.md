@@ -5,12 +5,15 @@ In this repository I'll store some personal study notes about D3.js and some exa
 
 - **1-svg_basics:** in this folder you are going to find some basic review notes about the `svg` element. 
 
+<br>
 
 ## Visualizing the contents in this repo
 
 To visualize all `D3` files appropriately, you need to set up a basic `HTTP server` in your local machine. Next, I present two easy ways to do this: one using `Python 3` and a slightly more advanced one using `Node JS` and `NPM` (Node Package Manager). 
 
 **p.s.:** for the sole purpose of seeing the content in this folder, I personally recommend the Python alternative as it is easier to install implement in any operating system. But if you already use Node JS or simply don't want to install Python for any reason, I also present a way to do this using Node JS.
+
+<br>
 
 ## Setting up HTTP Server with Python
 
