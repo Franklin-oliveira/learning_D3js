@@ -104,6 +104,4 @@ If you need instructions to install `NodeJS` and `NPM`, here are some references
 
 Additionally, I added the steps I followed to install if on linux Ubuntu 20.04 on file [install_nodejs_ubuntu](./install_nodejs_ubuntu.md). If you are using another linux distribution, you may want to try the same steps replacing `apt` for your distro's package manager (like `dnf` for Fedora and `pacman` for Manjaro).
 
-<br>
-
 ----
