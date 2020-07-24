@@ -1,0 +1,27 @@
+[
+	{
+		"name": "Gabriel",
+		"age": "27",
+		"height":"1.86"
+	},
+	{
+		"name": "Ione",
+		"age": "24",
+		"height": "1.55"
+	},
+	{
+		"name": "Franklin",
+		"age": "25",
+		"height": "1.90"
+	},
+	{
+		"name": "Davi",
+		"age": "28",
+		"height": "1.72"
+	},
+	{
+		"name": "Maria",
+		"age": "27",
+		"height": "1.62"
+	}
+]

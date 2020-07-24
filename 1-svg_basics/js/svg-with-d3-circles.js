@@ -1,5 +1,5 @@
 /*
- * Adding many circles to the screel
+ * Adding many circles to the screen
  * 
  */ 
 
