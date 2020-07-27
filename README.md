@@ -58,13 +58,15 @@ python3 -m http.server
 
 You'll see something like this in your terminal (or Windows cmd):
 
-![](./img/python-http.png)
-
+<p align='center'>
+    <img src="./img/python-http.png">
+</p>
 
 This means that the server is up and running at `http://localhost:8000/`. If you go to your favourite browser and navigate to this address, you should see this repo's structure like this:
 
-![](./img/python-server-browser.png)
-
+<p align='center'>
+    <img src='./img/python-server-browser.png'>
+</p>
 
 To change the port, just execute
 
@@ -90,7 +92,9 @@ http-server -p 8000
 
 This will start the server at port 8000 and the result is similar to
 
-![](./img/node-server-browser.png)
+<p align='center'>
+    <img src='./img/node-server-browser.png'>
+</p>
 
 Further options for the `http-server` library can be found [here](https://www.npmjs.com/package/http-server).
 
