@@ -4,11 +4,12 @@ According to Mike Bostock:
 
 > "Scales are functions that map from an **input domain** to an **output range**"
 
-<!-- ## Content
+## Content
 
-- 
+- **linear-scale.html** and **log-scale.html**: Bar chart example revisited with new linear and log(10) scales added to it. See `./js/linear-scale.js` and `./js/log-scale.js` for the details.
+- **time-scale.html**: simple example of how to work with time scales in D3. Code in `./js/time-scale.js`.
 
-## What I learned -->
+## What I learned
 
 
 ## References
