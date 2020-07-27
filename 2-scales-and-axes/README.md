@@ -8,7 +8,7 @@ According to Mike Bostock:
 
 ## Content
 
-- **linear-scale.html** and **log-scale.html**: Bar chart example revisited with new linear and log(10) scales added to it. See `./js/linear-scale.js` and `./js/log-scale.js` for the details.
+- **linear-scale.html**, **log-scale.html** and **band-scale.html**: Bar chart example revisited with new linear, log(10) and band scales added to it. See `./js/linear-scale.js`, `./js/log-scale.js` and `./js/band-scale.js` for the details.
 - **time-scale.html**: simple example of how to work with time scales in D3. Code in `./js/time-scale.js`.
 - **ordinal-scale.html**: how to work with ordinal scale in D3. In this example, we use `D3 scaleOrdinal` to assign different colors to an array of elements according to its position index (see `./js/ordinal-scale.js`).
 
