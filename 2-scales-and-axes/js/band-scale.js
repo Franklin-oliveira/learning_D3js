@@ -41,7 +41,7 @@ d3.json('./data/buildings.json').then(function (data) {
             // returning the scaled value to fit the screen
             return y(d.height);
         })
-        .attr('width', 40)
+        .attr('width', x.bandwidth)
         .attr('fill', 'grey')
 }).catch(function (error) {
     console.log(error);
