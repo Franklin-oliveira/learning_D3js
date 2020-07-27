@@ -23,4 +23,37 @@ Here you are going to find some notes about the `svg` object and how to modify i
 - how to use `selectAll` and `enter` methods to create and modify multiple structures recursively.
 - how to load external data into D3 (from `csv`, `tsv` and `json` files) and use it to modify `svg` structures.
 
+<br>
+
+## Examples
+
+Here are some examples of what I was capable of constructing after learning these things:
+
+### Mr. Stickman
+
+This example was constructed using only `svg` methods like `rect` and `line`. 
+
+<p align='center'>
+    <img src='./prints/stickman.png'>
+</p>
+
+### Circles
+
+The goal here was to produce an `svg` recursively modifying colors and size with an array of data.
+
+<p align='center'>
+    <img src='./prints/circles.png'>
+</p>
+
+
+### Simple Bar Chart
+
+Here the objective was to understand what kinds of things D3 does "under the hood" to produce some classical visualizations with real data.
+
+<p align='center'>
+    <img src='./prints/bar-chart.png'>
+</p>
+
+<br>
+
 -----
