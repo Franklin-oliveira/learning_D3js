@@ -18,6 +18,9 @@ According to Mike Bostock:
 ## What I learned
 
 - How to work with linear, logarithmic, time, ordinal and band scales in D3.
+- How to set domains automatically with `D3 extent` and `map`.
+- Create and work with svg groups and margins and how to add axis and labels to a chart.
+- How to reverse the y axis so that a bar chart, for example, has the right orientation to the readers.
 
 
 ## References

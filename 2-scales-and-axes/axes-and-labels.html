@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta name='description' content=''>
+    <title>Axes and Labels</title>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" 
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+
+<body>
+    <h1>Adding Axes and Labels</h1>
+
+    <p>
+        Now it's time for us to add axes and labels to our simple bar chart. But first, we need to create SVG's margins 
+        and groups to create space for us to insert our axes and be able to move the whole figure (all elements at the same time).
+    </p>
+    <p>
+        <b>Groups:</b> are invisible containers for structuring SVG. It has translation attribute to move multiple SVGs at once. 
+        
+        <br>
+        <br>
+
+        To create an axis, we can use a D3 axis generator (one of axisLeft, axisTop, axisBottom and axisRight) and append it to our svg group, 
+        with a class attribute. 
+        <br>
+        <br>
+        See <span style="color:blue">./js/axes-and-labels.js</span> for details. 
+
+    </p>
+
+    <div class="container">
+        <div class="row">
+            <div id="chart"></div>
+        </div>
+    </div>
+
+    <br>
+
+    <!-- JavaScript Libraries -->
+    <script src='./js/d3.min.js'></script>
+
+    <!-- Custom JS script -->
+    <script src='./js/axes-and-labels.js'></script>
+
+</body>
+</html>
