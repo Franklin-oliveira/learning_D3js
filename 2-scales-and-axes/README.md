@@ -4,6 +4,8 @@ According to Mike Bostock:
 
 > "Scales are functions that map from an **input domain** to an **output range**"
 
+Axes are D3 components that renders human-readable reference marks for scales. 
+
 <br>
 
 ## Content
@@ -43,5 +45,6 @@ Here I revisited the bar chart example of the section 1 (about `svg` basics) and
 - [Udemy - Mastering data visualization in D3.js](https://www.udemy.com/course/masteringd3js)
 - [D3 Tutorial on Observable](https://observablehq.com/@d3/learn-d3)
 - [D3 Docs](https://github.com/d3/d3/wiki)
+- [D3 Axis](https://github.com/d3/d3-axis)
 - [scaleTime example](https://bl.ocks.org/d3indepth/8948c9936c71e63ef2647bc4cc2ebf78)
 - [scaleOrdinal example](https://bl.ocks.org/d3indepth/fabe4d1adbf658c0b73c74d3ea36d465)
