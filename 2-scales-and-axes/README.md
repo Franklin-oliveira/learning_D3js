@@ -22,6 +22,20 @@ According to Mike Bostock:
 - Create and work with svg groups and margins and how to add axis and labels to a chart.
 - How to reverse the y axis so that a bar chart, for example, has the right orientation to the readers.
 
+<br>
+
+## Examples
+
+Here are a few examples of charts I was capable of constructig after learning all the things listed above. 
+
+### Simple Bar Chart (revisited)
+
+Here I revisited the bar chart example of the section 1 (about `svg` basics) and made it look the way it should: with correct axis, labels and orientation.
+
+<p align='center'>
+    <img src='./prints/simple-bar-chart.png'>
+</p>
+
 
 ## References
 
