@@ -12,6 +12,7 @@ Axes are D3 components that renders human-readable reference marks for scales.
 
 - **automatic-domain.html**: bar chart example revisited to illustrate how we can use D3 builtin methods, such as `max`, `min`, `map` and `extent` to set and update our scales' domain automatically. (see `./js/automatic-domain.js`) 
 - **axes-and-labels.html:** completed the simple bar chart example by adding axes, labels and correcting its orientation. Also learned to create svg groups and set margins to insert elements, such as labels, to the graph. (see `./js/axes-and-labels.js`) 
+- **coffee-revenue.html:** bar chart example applying everything I've learned so far to ilustrate a hypothetical coffee shop monthly revenues. Full code is in `./js/coffee-revenue.js`. 
 - **linear-scale.html**, **log-scale.html** and **band-scale.html**: Bar chart example revisited with new linear, log(10) and band scales added to it. See `./js/linear-scale.js`, `./js/log-scale.js` and `./js/band-scale.js` for the details.
 - **time-scale.html**: simple example of how to work with time scales in D3. Code in `./js/time-scale.js`.
 - **ordinal-scale.html**: how to work with ordinal scale in D3. In this example, we use `D3 scaleOrdinal` to assign different colors to an array of elements according to its position index (see `./js/ordinal-scale.js`).
@@ -37,6 +38,14 @@ Here I revisited the bar chart example of the section 1 (about `svg` basics) and
 
 <p align='center'>
     <img src='./prints/simple-bar-chart.png'>
+</p>
+
+### Another Bar Chart (Coffee shop revenues)
+
+In this example I applied everything I learned so far to construct a bar chart to represent a hypothetical coffee shop monthly revenues. I went a little further and also represented the monthly profits (in dark brown) and the costs (in light brown). The total size of the bar is the total revenue for each month.
+
+<p align='center'>
+    <img src='./prints/coffee-revenue.png'>
 </p>
 
 
