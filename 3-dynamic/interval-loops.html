@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <title>Interval Loops</title>
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <h1>Interval Loops</h1>
+    <p>Similar to JavaScript setInterval method, D3 has d3.interval attribute which does the exact same thing.
+        <br>
+        <br>
+        In javascript, the syntax is:               <br>  <br>
+
+        let myInterval = setInterval(function () {  <br>
+            // do something                         <br> 
+        }, 500)                                     <br>
+
+        <br>
+        <br>
+        clearInterval(myInterval)  // stops the loop
+
+        <br>
+        <br>
+        In D3 it's pretty similar:                  <br> <br>
+
+        d3.interval(function () {                   <br>
+            // do something                         <br>
+        }, 500)                                     <br>
+
+    </p>
+    <div class="container">
+        <div class="row">
+            <div id="chart"></div>
+        </div>
+    </div>
+
+    <!-- External JS libraries -->
+    <script src="./js/jquery.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/d3.min.js"></script>
+
+    <script src="./js/interval-loops.js"></script>
+</body>
+
+</html>
