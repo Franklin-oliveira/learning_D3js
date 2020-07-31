@@ -7,6 +7,7 @@ In this repository I'll store some personal study notes about D3.js and some exa
 
 - **1-svg_basics:** in this folder you are going to find some basic review notes about the `svg` element and how to use D3 to create and modify it on an HTML page.
 - **2-scales-and-axes:** study notes and examples about how axes and scales work in D3 and how to add them to an `svg` group.
+- **3-dynamic:** some examples and notes about `D3 update` pattern and transitions.
 
 <br>
 
