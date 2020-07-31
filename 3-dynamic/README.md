@@ -13,6 +13,7 @@ Now it's time to learn how to add dynamic features (e.g., transitions) to static
 - **scatter-plot.html:** first scatter plot on D3. I've transformed the coffee revenues bar chart into a scatter plot by changing some `svg` attributes. 
 
 
+
 <br>
 
 ## What I learned
