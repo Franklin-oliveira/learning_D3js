@@ -6,6 +6,7 @@ Now it's time to learn how to add dynamic features (e.g., transitions) to static
 
 ## Content
 
+- **dynamic-chart.html:** applying the `D3 update` pattern to make a dynamic chart that flicks between different data.
 - **interval-loops.html:** revisiting the coffee revenues bar chart example to ilustrate how the `D3 update` pattern works. (See `./js/interval-loops.js` for more details)
 
 
