@@ -7,10 +7,13 @@ Now it's time to learn how to add dynamic features (e.g., transitions) to static
 ## Content
 
 - **dynamic-chart.html:** applying the `D3 update` pattern to make a dynamic chart that flicks between different data. Full code in `./js/dynamyc-chart.js`.
+- **gapminder.html:** example that fully applies the `D3 update` pattern and transitions. (See `./js/gapminder.js` for full code)
 - **interval-loops.html:** revisiting the coffee revenues bar chart example to ilustrate how the `D3 update` pattern works. (See `./js/interval-loops.js` for more details)
-- **transition.html:** the same dynamic bar chart as in file `dynamic-chart.html`, but now with a smoother transition between data (applied `d3.transition().duration(500)` method). The code of the chart with this transition is in `./js/transition.js` file.
 - **merge.html** the result is exactly the same as in `transition.html`. However, I refactored the code a little bit to apply `D3 merge` method. 
-- **scatter-plot.html:** first scatter plot on D3. I've transformed the coffee revenues bar chart into a scatter plot by changing some `svg` attributes. 
+- **scatter-plot.html:** first scatter plot on D3. I've transformed the coffee revenues bar chart into a scatter plot by changing some `svg` attributes.
+- **transition.html:** the same dynamic bar chart as in file `dynamic-chart.html`, but now with a smoother transition between data (applied `d3.transition().duration(500)` method). The code of the chart with this transition is in `./js/transition.js` file.
+
+ 
 
 
 
@@ -22,6 +25,27 @@ Now it's time to learn how to add dynamic features (e.g., transitions) to static
 
 <br>
 
+## Examples
+
+### Coffee Revenues Bar Chart (revisited)
+
+Here I revisited the coffee revenues bar chart from the previous section and added new elements to make it change to represent new added data. It was an important example for me to learn how to apply D3 transitions and the update pattern.
+
+<p align='center'>
+    <img src="./prints/barchart-animated.gif"> 
+</p>
+
+<br>
+
+### Gapminder (clone)
+Here is a slightly more complicated example that clearly illustrates how the D3 update pattern works.
+
+<p align='center'>
+    <img src="./prints/gapminder-example.gif"> 
+</p>
+
+
+<br>
 
 
 ## References
