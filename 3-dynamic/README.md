@@ -6,11 +6,15 @@ Now it's time to learn how to add dynamic features (e.g., transitions) to static
 
 ## Content
 
+- **interval-loops.html:** revisiting the coffee revenues bar chart example to ilustrate how the `D3 update` pattern works. (See `./js/interval-loops.js` for more details)
+
 
 
 <br>
 
 ## What I learned
+
+- How the `D3 update` pattern works and how to use it to animate charts (update it with new data). 
 
 <br>
 

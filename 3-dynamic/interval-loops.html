@@ -40,11 +40,26 @@
         To do this, we should think which parts of our code should run every time our data changes and which parts should run just once.
 
     </p>
+
+    <p>
+        <br>
+        <b>D3 Update Pattern</b>
+        <br>
+        <ol>
+            <li><b>Data Join:</b> select all matching elements on the screen with selectAll and update the data we're using.</li>
+            <li><b>Exit:</b> use the exit() selector to remove the elements that don't exist in the new array of data</li>
+            <li><b>Update:</b> set attributes for existing elements on the screen</li>
+            <li><b>Enter:</b> use the enter() selector to set attributes for new items in the data array.</li>
+        </ol>
+        <br>
+    </p>
+    
     <div class="container">
         <div class="row">
             <div id="chart"></div>
         </div>
     </div>
+
 
     <!-- External JS libraries -->
     <script src="./js/jquery.min.js"></script>

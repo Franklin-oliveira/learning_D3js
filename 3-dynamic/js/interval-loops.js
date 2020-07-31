@@ -92,6 +92,8 @@ d3.json('./data/coffee-revenue.json').then(function (data) {
     console.log(error)
 })
 
+// updates the chart with new data
+
 function update(data) {
 
     // updating domain
@@ -104,33 +106,49 @@ function update(data) {
 
     // x axis
     let xAxis = d3.axisBottom(x);
-    
+
     // y axis
     let yAxis = d3.axisLeft(y)
         .tickFormat(function (d) {
             return '$' + d;
         })
 
-
     // updating axes
     xAxisGroup.call(xAxis)
     yAxisGroup.call(yAxis)
 
+    // D3 update pattern
+    // JOIN new data with old elements
+    let revBars = g.selectAll('bar').data(data)
 
-    // // revenue bars
-    // let revBars = g.selectAll('bar').data(data)
-    // revBars.enter()
-    //     .append('rect')
-    //     .attr('x', function (d) {
-    //         return x(d.month);
-    //     })
-    //     .attr('y', function (d) {
-    //         return y(d.revenue);
-    //     })
-    //     .attr('height', function (d) {
-    //         return height - y(d.revenue)
-    //     })
-    //     .attr('width', x.bandwidth)
-    //     .attr('fill', '#d9b38c')
+    // EXIT old elements not present in new data
+    revBars.exit().remove()
+
+    // UPDATE old elements present in new data
+    revBars.attr('x', function (d) {
+        return x(d.month);
+        })
+        .attr('y', function (d) {
+            return y(d.revenue);
+        })
+        .attr('height', function (d) {
+            return height - y(d.revenue)
+        })
+        .attr('width', x.bandwidth)
+
+    // ENTER new elements 
+    revBars.enter()
+        .append('rect')
+        .attr('x', function (d) {
+            return x(d.month);
+        })
+        .attr('y', function (d) {
+            return y(d.revenue);
+        })
+        .attr('height', function (d) {
+            return height - y(d.revenue)
+        })
+        .attr('width', x.bandwidth)
+        .attr('fill', '#d9b38c')
 
 }
