@@ -38,7 +38,7 @@ Here I revisited the coffee revenues bar chart from the previous section and add
 <br>
 
 ### Gapminder (clone)
-Here is a slightly more complicated example that clearly illustrates how the D3 update pattern works.
+Here is a slightly more complicated example that clearly illustrates how the D3 update pattern works. The original graphic was presented by Hans Rosling in this [TED Talk](https://www.youtube.com/watch?v=hVimVzgtD6w&t=5s).
 
 <p align='center'>
     <img src="./prints/gapminder-example.gif"> 
