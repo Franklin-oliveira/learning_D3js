@@ -54,7 +54,7 @@ python3 --version
 
 Once you have the `Python 3` interpreter set up and running in your machine, to set up a http server is as simple as 
 
-```
+```shell
 python3 -m http.server
 ```
 
@@ -70,7 +70,7 @@ This means that the server is up and running at `http://localhost:8000/`. If you
 
 To change the port, just execute
 
-```
+```shell
 python3 -m http.server *port_number*  # you can add any port number you like
 ```
 
