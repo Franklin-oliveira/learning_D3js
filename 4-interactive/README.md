@@ -1,12 +1,12 @@
-# Dynamic
+# Interactive
 
-(Skeleton for README)
+In this folder I explored some slightly more advanced features which allows the user to interact with the charts and further explore the data, maybe extracting some valuable insights. 
 
 <br>
 
 ## Content
 
-- **main.html:** 
+- **adding-legend.html:** revisited the gapminder example from previous section and added a legend to it. Now we can identify a continent by its color. See `./js/gapminder-legend.js`  
 
  
 
