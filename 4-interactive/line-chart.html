@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta name='description' content=''>
+    <title>Line Chart</title>
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/line-chart-style.css">
+    <link rel="stylesheet" href="./css/d3-tip.css">
+    <link rel="stylesheet" href="./css/jquery-ui.min.css">
+    <link rel="stylesheet" href="./css/jquery-ui.structure.min.css">
+    <link rel="stylesheet" href="./css/jquery-ui.theme.min.css">
+</head>
+
+<body>
+    <p>
+        <h1>Cryptocurrencies line chart</h1>
+
+        Now, I'll use what I just learned to construct a interactive line chart with some sample cryptocurrencies data from 
+        the udemy course (see references).
+        <br>
+        <br>
+
+        See <font color='blue'>./js/line-chart.js</font> for full code. 
+
+        <br>
+        <br>
+
+    </p>
+
+    <div class="container">
+        <div id="selections" class="row">
+            <div class="col-md-4">
+                <div id="slider-div">
+                    <label>Date: <span id='dateLabel1'>12/05/2013</span> - 
+                    <span id='dateLabel2'>31/10/2017</span></label>
+                    <div id="date-slider"></div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <select id="coin-select" class="form-control">
+                    <option selected value="bitcoin">Bitcoin</option>
+                    <option value="ethereum">Ethereum</option>
+                    <option value="bitcoin_cash">Bitcoin Cash</option>
+                    <option value="litecoin">Litecoin</option>
+                    <option value="ripple">Ripple</option>
+                </select>
+            </div>
+            <div class="col-md-4">
+                <select id="var-select" class="form-control">
+                    <option selected value="price_usd">Price in US dollars</option>
+                    <option value="market_cap">Market Capitalization</option>
+                    <option value="24h_vol">24 Hour Trading Volume</option>
+                </select>
+            </div>
+        </div>
+        <div class="row">
+            <div id="chart-area"></div>
+        </div>
+    </div>
+
+    <!-- External JS libraries -->
+    <script src="./js/jquery.min.js"></script>
+    <script src="./js/jquery-ui.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/d3.min.js"></script>
+    <script src="./js/d3-tip.js"></script>
+
+    <!-- Custom JS file -->
+    <script src="./js/line-chart.js"></script>
+</body>
+</html>

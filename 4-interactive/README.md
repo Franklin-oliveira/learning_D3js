@@ -10,7 +10,8 @@ In this folder I explored some slightly more advanced features which allows the 
 - **formatting-and-parsing.html**: example of how to use `D3 Format` for numbers, how to use string specifiers and use `D3 TimeFormat`and `TimeParse` to convert between strings and dates. All code for this is in `./js/formatting-and-parsing.js`.
 - **tooltips.html:** once again I revisited the gapminder example. This time, I added tooltips to it with the d3-tip library. Details in `./js/tooltips.js`.
 - **listeners-and-handlers.html:** short example of how to use listeners and handlers to add some interactive functionalities to a D3 chart. Code in `./js/listeners-and-handlers.js`.
-- **jquery-slider.html:** example of how to add a UI slider using `jQuery UI library`. Complete code in `./js/jquery-slider.js`. 
+- **jquery-slider.html:** example of how to add a UI slider using `jQuery UI library`. Complete code in `./js/jquery-slider.js`.
+- **line-chart.html:** a short example of how to do a simple line chart in D3, using `d3.line`. Details are in `./js/line-chart.js`.
 
 
 
