@@ -39,7 +39,7 @@ Here I revisited the gapminder example from the previous section (originaly pres
 
 ### Cryptocurrencies Line Chart 
 
-In this example I applied everything I've learned so far to do a line chart of cryptocurrencies price in US dollars. It was an important opportunity for me to practice how to use community's code and adapt it to a custom application. The credit also goes to the instructor of  [Udemy - Mastering data visualization in D3.js](https://www.udemy.com/course/masteringd3js) course for providing a sample code which helped me learn how to add elements to this chart (specially the tooltip) in a creative manner.
+In this example I applied everything I've learned so far to do a line chart of cryptocurrencies price in US dollars. It was an important opportunity for me to practice how to use community's code and adapt it to a custom application. The credit also goes to the instructor of  [Udemy - Mastering data visualization in D3.js](https://www.udemy.com/course/masteringd3js) course for providing a sample code which helped me tolearn how to add elements to this chart (specially the tooltip) in a creative manner.
 
 <p align='center'>
     <img src="./prints/bitcoin.gif"> 
