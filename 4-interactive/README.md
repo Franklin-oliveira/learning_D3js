@@ -29,6 +29,22 @@ In this folder I explored some slightly more advanced features which allows the 
 
 ## Examples
 
+### Gapminder (revisited)
+
+Here I revisited the gapminder example from the previous section (originaly presented by Hans Rosling in this [TED Talk](https://www.youtube.com/watch?v=hVimVzgtD6w&t=5s)) and added new elements to make it interactive, i.e., change as a reaction to user's selection. It was an important example for me to learn how to apply events listeners, handlers and learn how to add tooltips and format data to display to the user in an organized and clean manner.
+
+<p align='center'>
+    <img src="./prints/gapminder.gif"> 
+</p>
+
+### Cryptocurrencies Line Chart 
+
+In this example I applied everything I've learned so far to do a line chart of cryptocurrencies price in US dollars. It was an important opportunity for me to practice how to use community's code and adapt it to a custom application. The credit also goes to the instructor of  [Udemy - Mastering data visualization in D3.js](https://www.udemy.com/course/masteringd3js) course for providing a sample code which helped me learn how to add elements to this chart (specially the tooltip) in a creative manner.
+
+<p align='center'>
+    <img src="./prints/bitcoin.gif"> 
+</p>
+
 
 
 
