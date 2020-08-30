@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta name='description' content=''>
+    <title>jQuery Slider</title>
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/d3-tip.css">
+    <link rel="stylesheet" href="./css/jquery-ui.min.css">
+    <link rel="stylesheet" href="./css/jquery-ui.structure.min.css">
+    <link rel="stylesheet" href="./css/jquery-ui.theme.min.css">
+</head>
+
+<body>
+    <p>
+        Now, instead of havin a continuous animation in the chart, let's add a UI slider using jQuery to 
+        select which year we want to see.
+        <br>
+        <br>
+
+        See <font color='blue'>./js/jquery-slider.js</font> for full code. 
+
+        <br>
+        <br>
+
+    </p>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-2">
+                <button id="play-button" class="btn btn-primary">Play</button>
+                <button id="reset-button" class="btn btn-primary">Reset</button>
+            </div>
+            <div class="col-md-6">
+                <div id="slider-div">
+                    <label>Year: <span id="year">1800</span></label>
+                    <div id="date-slider"></div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <select id="continent-select" class="form-control">
+                    <option selected value="all">All</option>
+                    <option value="europe">Europe</option>
+                    <option value="asia">Asia</option>
+                    <option value="americas">Americas</option>
+                    <option value="africa">Africa</option>
+                </select>
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div id="chart"></div>
+        </div>
+    </div>
+
+    <!-- External JS libraries -->
+    <script src="./js/jquery.min.js"></script>
+    <script src="./js/jquery-ui.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/d3.min.js"></script>
+    <script src="./js/d3-tip.js"></script>
+
+    <script src="./js/jquery-slider.js"></script>
+</body>
+</html>
